@@ -1,0 +1,69 @@
+/* Responsive Design */
+@media screen and (max-width:576px) {
+    body{
+        max-width: 576px;
+        
+    }
+
+    /* Header responsive */
+    header{
+        padding: 0 10px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+        font-size: 2rem;
+        /* padding: 0 10px; */
+    }
+
+
+    /* Banner Responsive */
+    .banner{
+        max-width: 576px;
+        border-radius: 16px;
+        background-position: top center;
+        /* height: 500px; */
+        padding: 15px 25px;
+
+    }  
+
+.banner-content{
+    width: 500px;
+}
+.section-title{
+    font-size:2.5rem;
+}
+.section-description{
+    font-size: 1rem;
+}
+.banner-input{
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+    /* max-width: 300px; */
+}
+select, input{
+    width: 100%;
+    
+}
+.btn-primary{
+    width: 100%;
+}
+    
+/* Popular tour responsive */
+.popular-tour{
+    flex-direction: column;
+}
+.popular-tour-title{
+    font-size: 3rem;
+}
+.btn-primary{
+    width: 150px;
+}
+
+
+
+
+}
