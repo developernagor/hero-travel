@@ -1,0 +1,238 @@
+/* Google font styles */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Mulish", sans-serif;
+}
+
+
+
+/* Shared styles */
+
+.display-flex{
+    display: flex;
+}
+
+
+.primary-color{
+    color: #FF5400;
+}
+.btn-primary{
+    width: 150px;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.7rem;
+    color: #fff;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 8px;
+
+
+}
+.text-center{
+    text-align: center;
+}
+.section-title{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+    padding-bottom: 1.5rem;
+}
+.section-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 3rem;
+    line-height: 1.5rem;
+}
+
+
+
+/* Header Section styles start */
+/* header{
+    display: none;
+} */
+
+.mobile-menu{
+    display: none;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+}
+.logo img{
+    margin-right: 15px;
+
+}
+.travel{
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.nav-menu{
+
+}
+.nav-menu li{
+    list-style: none;
+    margin-right: 35px;
+}
+.nav-menu li a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Banner Section Start */
+.banner{
+    background-image: linear-gradient(180deg, rgba(19,19,24,0.8) 0%, rgba(19,19,24,0) 100%), url('./assets/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 8px;
+}
+.banner-content{
+    width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-input{
+    width: 800px;
+    gap: 30px;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.3);
+    padding: 1rem;
+    border-radius: 8px;
+}
+input, select{
+    width: 150px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.7rem;
+    color: rgba(19,19,24,0.5);
+    background-color: #FFF;
+    border: none;
+    border-radius: 8px;
+
+
+}
+
+
+
+
+/* popular tour section styles */
+.popular-tour{
+    padding: 100px 0;
+    gap: 50px;
+}
+.popular-tour-content{
+    padding-right: 20px;
+}
+.popular-tour-content ul{
+    font-size: 1.2rem;
+    padding: 0 30px;
+    padding-bottom: 2rem;
+    line-height: 1.5rem;
+}
+.popular-tour-content ul li{
+    padding-bottom: 15px;
+}
+.popular-tour-title{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #131318;
+    padding-bottom: 1.5rem;
+}
+.popular-tour-description{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #131318;
+    padding-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+
+
+
+
+/* Responsive Design */
+@media screen and (max-width:576px) {
+    body{
+        max-width: 576px;
+        
+    }
+
+    /* Header responsive */
+    header{
+        padding: 0 10px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+        font-size: 2rem;
+        /* padding: 0 10px; */
+    }
+
+
+    /* Banner Responsive */
+    .banner{
+        max-width: 576px;
+        border-radius: 16px;
+        background-position: top center;
+        /* height: 500px; */
+        padding: 15px 25px;
+
+    }  
+
+.banner-content{
+    width: 500px;
+}
+.section-title{
+    font-size:2.5rem;
+}
+.section-description{
+    font-size: 1rem;
+}
+.banner-input{
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+    /* max-width: 300px; */
+}
+select, input{
+    width: 100%;
+    
+}
+.btn-primary{
+    width: 100%;
+}
+    
+/* Popular tour responsive */
+.popular-tour{
+    flex-direction: column;
+}
+.popular-tour-title{
+    font-size: 3rem;
+}
+.btn-primary{
+    width: 150px;
+}
+
+}
