@@ -153,29 +153,36 @@ input, select{
 
 
 /* popular tour section styles */
-.popular-tour{
+.popular-tour,
+.perfect-place{
     padding: 100px 0;
     gap: 50px;
 }
-.popular-tour-content{
+.popular-tour-content,
+.perfect-place-content{
     padding-right: 20px;
+    width: 50%;
 }
-.popular-tour-content ul{
+.popular-tour-content ul,
+.perfect-place-content ul{
     font-size: 1.2rem;
     padding: 0 30px;
     padding-bottom: 2rem;
     line-height: 1.5rem;
 }
-.popular-tour-content ul li{
+.popular-tour-content ul li,
+.perfect-place-content ul li{
     padding-bottom: 15px;
 }
-.popular-tour-title{
+.popular-tour-title,
+.perfect-place-title{
     font-size: 3.5rem;
     font-weight: 800;
     color: #131318;
     padding-bottom: 1.5rem;
 }
-.popular-tour-description{
+.popular-tour-description,
+.perfect-place-description{
     font-size: 1.2rem;
     font-weight: 400;
     color: #131318;
@@ -487,3 +494,71 @@ border: none;
 border-radius: 10px;
 }
 /* Deals section styles ends here */
+
+
+/* Perfect place styles starts here */
+.perfect-place-video{
+    /* width: 50%; */
+    /* border: 2px solid red; */
+    position: relative;
+}
+.perfect-place-video video{
+    width: 100%;
+    border-radius: 15px;
+    filter: brightness(80%);
+}
+.perfect-place-video-overlay{
+position: absolute;
+left: 10%;
+top: 35%;
+color: #fff;
+font-size: 1.5rem;
+width: 400px;
+text-align: center;
+}
+/* Perfect place styles ends here */
+
+
+
+/* Newsletter section styles starts here */
+.newsletter{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.newsletter-content{
+    width: 45%;
+    padding: 25px;
+    border: 1px solid rgba(255, 84, 0, 1);
+    border-radius: 10px;
+}
+.newsletter-content-title{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.newsletter-content-description{
+    font-size: 1.3rem;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.newsletter-form{}
+.newsletter-form input{
+    width: 100%;
+    background-color: rgba(19, 19, 24, 0.05);
+    /* padding: 15px; */
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+#newsletter-btn{
+    color: #FFF;
+    background-color: rgb(255, 85, 1);
+    font-size: 1.2rem;
+    
+}
+.newsletter-image{
+    width: 50%;
+}
+.newsletter-image img{
+    width: 100%;
+}
+/* Newsletter section styles ends here */
