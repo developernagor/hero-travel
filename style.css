@@ -525,6 +525,7 @@ text-align: center;
 width: 100%;
 display: flex;
 justify-content: space-between;
+padding-bottom: 50px;
 }
 .newsletter-content{
     width: 40%;
@@ -581,3 +582,47 @@ justify-content: space-between;
     padding-top: 10px;
 }
 /* Newsletter section styles ends here */
+
+
+
+/* Footer Section styles starts here */
+.footer{
+    padding: 60px 0;
+    width: 100%;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.footer-content{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-top-icon{
+    width: 250px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.footer-top-icon img{
+    padding-right: 15px;
+}
+.footer-top-description{
+    padding-bottom: 20px;
+}
+.footer-icon{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-icon fa-brands{
+
+}
+.footer-content hr{
+    margin-bottom: 15px;
+}
+.footer-bottom-content{
+    /* padding: 15px; */
+}
+
+/* Footer Section styles ends here */
